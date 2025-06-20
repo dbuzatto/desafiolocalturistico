@@ -59,10 +59,12 @@ img {
     margin: 24px auto 44px auto;
 }
 
-.divisor {
+#divisor1 {
+  height: 1px;
   color: var(--border-primary);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   margin-bottom: 64px;
+  
 }
 
 
@@ -119,4 +121,20 @@ h3 {
 
 #budget {
   color: #E95E10;
+}
+
+#divisor2 {
+  height: 1px;
+  color: var(--border-primary);
+  margin-bottom: 40px;
+}
+
+#pfinal {
+  text-align: center;
+}
+
+footer {
+  color: var(--text-secondary);
+  text-align: center;
+  margin-bottom: 48px;
 }
