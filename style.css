@@ -28,9 +28,10 @@ body {
 }
 
 #page {
-    margin: 88px 80px 142px 80px;
-    width: 1120px;
-    height: 3049px;
+  margin: 88px auto 142px auto;
+  max-width: 1120px;
+  width: 100%;
+  padding: 0 24px; 
 }
 
 .headline {
@@ -47,8 +48,13 @@ h1 {
 }
 
 img {
-    border-radius: 28px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 28px;
+  max-width: 100%;
+  height: auto;
 }
+
 
 #pbusan {
     text-align: center;
